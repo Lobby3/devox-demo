@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/devox-demo/static/css/main.0b4ab4f9.css",
+    "main.js": "/devox-demo/static/js/main.0a588b55.js",
+    "static/js/787.578be6e0.chunk.js": "/devox-demo/static/js/787.578be6e0.chunk.js",
+    "static/media/section@3x.png": "/devox-demo/static/media/section@3x.450fc2b7c43191f005cf.png",
+    "index.html": "/devox-demo/index.html",
+    "main.0b4ab4f9.css.map": "/devox-demo/static/css/main.0b4ab4f9.css.map",
+    "main.0a588b55.js.map": "/devox-demo/static/js/main.0a588b55.js.map",
+    "787.578be6e0.chunk.js.map": "/devox-demo/static/js/787.578be6e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b4ab4f9.css",
+    "static/js/main.0a588b55.js"
+  ]
+}
