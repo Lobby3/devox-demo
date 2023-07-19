@@ -1,19 +1,23 @@
 import { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import styles from "./HomeList.module.css";
-const HomeList: FunctionComponent = () => {
+import styles from "./HomeMap1.module.css";
+const HomeMap1: FunctionComponent = () => {
   const navigate = useNavigate();
 
-  const onHeroiconsOutlineglobeAltClick = useCallback(() => {
-    navigate("/");
+  const onHeroiconsMinilistBulletClick = useCallback(() => {
+    navigate("/home-list");
   }, [navigate]);
 
-  const onButtonContainer9Click = useCallback(() => {
+  const onMapZoomOutClick = useCallback(() => {
+    // Please sync "Home Map 2" to the project
+  }, []);
+
+  const onButtonContainer5Click = useCallback(() => {
     // Please sync "Discover" to the project
   }, []);
 
   return (
-    <div className={styles.homeList}>
+    <div className={styles.homeMap1}>
       <div className={styles.navbar}>
         <div className={styles.logo}>
           <img
@@ -123,198 +127,30 @@ const HomeList: FunctionComponent = () => {
             <img
               className={styles.heroiconsMinilistBullet}
               alt=""
-              src="/heroiconsminilistbullet1.svg"
+              src="/heroiconsminilistbullet.svg"
+              onClick={onHeroiconsMinilistBulletClick}
             />
             <img
               className={styles.heroiconsOutlineglobeAlt}
               alt=""
-              src="/heroiconsoutlineglobealt1.svg"
-              onClick={onHeroiconsOutlineglobeAltClick}
+              src="/heroiconsoutlineglobealt.svg"
             />
           </div>
         </div>
-        <div className={styles.cardHero}>
-          <div className={styles.content}>
-            <div className={styles.badge}>
-              <div className={styles.badgeLayer}>
-                <div className={styles.dots}>
-                  <div className={styles.dotsChild} />
-                </div>
-                <div className={styles.label}>FUNDED</div>
-              </div>
-            </div>
-            <b className={styles.itsHowYou1}>
-              The TikTok ban bill, aka The Restrict Act
-            </b>
-            <b className={styles.itsHowYou2}>20 miles from you</b>
-            <div className={styles.itsHowYou3}>
-              The RESTRICT Act, aka “TikTok Ban Bill”, is as distracting and
-              misleading as “The Patriot Act”, and is effectively The Patriot
-              Act 2.0. With draconian Orwellian punishments, such as 20 year
-              jail sentences for using VPNs, and unprecedented power to the
-              Department ...
-            </div>
-            <div className={styles.button10}>
-              <div className={styles.stateLayer}>
-                <img
-                  className={styles.heroiconsOutlinearrowRight}
-                  alt=""
-                  src="/heroiconsminicheck.svg"
-                />
-                <div className={styles.button1}>Donate Now To Participate</div>
-                <img
-                  className={styles.heroiconsMiniglobeAsiaAust}
-                  alt=""
-                  src="/heroiconsoutlinearrowright.svg"
-                />
-              </div>
-            </div>
-          </div>
-          <div className={styles.image}>
-            <img className={styles.image20Icon} alt="" src="/image-20@2x.png" />
-          </div>
-        </div>
-        <div className={styles.cards}>
-          <div className={styles.card}>
-            <div className={styles.rectangleParent}>
-              <div className={styles.frameChild} />
-              <img
-                className={styles.image12Icon}
-                alt=""
-                src="/image-12@2x.png"
-              />
-            </div>
-            <div className={styles.badge1}>
-              <div className={styles.badgeLayer}>
-                <div className={styles.dots}>
-                  <div className={styles.dotsChild} />
-                </div>
-                <div className={styles.label}>FUNDED</div>
-              </div>
-            </div>
-            <b className={styles.itsHowYouContainer}>
-              <p className={styles.digitalAssetsRegulation}>
-                Digital Assets Regulation
-              </p>
-              <p className={styles.digitalAssetsRegulation}>Act (DARA)</p>
-            </b>
-            <b className={styles.itsHowYou4}>East palestine, OH</b>
-            <div className={styles.itsHowYou5}>
-              Illinois Bill HB3479 attacks personal property by eliminating the
-              “exchanging, transferring or storing of a digital asset”.
-            </div>
-            <div className={styles.button12}>
-              <div className={styles.stateLayer}>
-                <img
-                  className={styles.heroiconsMiniglobeAsiaAust}
-                  alt=""
-                  src="/heroiconsminicheck.svg"
-                />
-                <div className={styles.button1}>
-                  You’ve donated, go participate!
-                </div>
-                <img
-                  className={styles.heroiconsMiniglobeAsiaAust}
-                  alt=""
-                  src="/heroiconsoutlinearrowright.svg"
-                />
-              </div>
-            </div>
-          </div>
-          <div className={styles.card}>
-            <div className={styles.rectangleParent}>
-              <div className={styles.frameChild} />
-              <img
-                className={styles.image15Icon}
-                alt=""
-                src="/image-15@2x.png"
-              />
-            </div>
-            <div className={styles.badge1}>
-              <div className={styles.badgeLayer}>
-                <div className={styles.dots}>
-                  <div className={styles.dotsChild} />
-                </div>
-                <div className={styles.label}>FUNDED</div>
-              </div>
-            </div>
-            <b className={styles.itsHowYouContainer}>
-              <p className={styles.digitalAssetsRegulation}>
-                California “DAO” Bill 1229
-              </p>
-              <p className={styles.digitalAssetsRegulation}>to keep building</p>
-            </b>
-            <b className={styles.itsHowYou4}>Youngstown, OH</b>
-            <div className={styles.itsHowYou5}>
-              Assembly member Matt Haney, with support from investment firm
-              Andreessen Horowitz and the Crypto ...
-            </div>
-            <div className={styles.button10}>
-              <div className={styles.stateLayer}>
-                <img
-                  className={styles.heroiconsOutlinearrowRight}
-                  alt=""
-                  src="/heroiconsminicheck.svg"
-                />
-                <div className={styles.button1}>Donate Now To Participate</div>
-                <img
-                  className={styles.heroiconsMiniglobeAsiaAust}
-                  alt=""
-                  src="/heroiconsoutlinearrowright.svg"
-                />
-              </div>
-            </div>
-          </div>
-          <div className={styles.card}>
-            <div className={styles.rectangleParent}>
-              <div className={styles.frameChild} />
-              <img
-                className={styles.image14Icon}
-                alt=""
-                src="/image-14@2x.png"
-              />
-            </div>
-            <div className={styles.badge1}>
-              <div className={styles.badgeLayer}>
-                <div className={styles.dots}>
-                  <div className={styles.dotsChild} />
-                </div>
-                <div className={styles.label}>FUNDED</div>
-              </div>
-            </div>
-            <b className={styles.itsHowYouContainer}>
-              Flint Michigan Water Crisis AND CANCER RATES
-            </b>
-            <b className={styles.itsHowYou4}>NEW Middletown, OH</b>
-            <div className={styles.itsHowYou5}>
-              Little Miss Flint: “9 Years. Over half of my life. Service lines
-              still not complete. Cancer rates are through the roof ...
-            </div>
-            <div className={styles.button10}>
-              <div className={styles.stateLayer}>
-                <img
-                  className={styles.heroiconsOutlinearrowRight}
-                  alt=""
-                  src="/heroiconsminicheck.svg"
-                />
-                <div className={styles.button1}>Donate Now To Participate</div>
-                <img
-                  className={styles.heroiconsMiniglobeAsiaAust}
-                  alt=""
-                  src="/heroiconsoutlinearrowright.svg"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.button18} onClick={onButtonContainer9Click}>
+        <img
+          className={styles.mapZoomOut}
+          alt=""
+          src="/map-zoom-out.svg"
+          onClick={onMapZoomOutClick}
+        />
+        <div className={styles.button10} onClick={onButtonContainer5Click}>
           <div className={styles.stateLayer4}>
             <img
               className={styles.heroiconsOutlineenvelope}
               alt=""
               src="/heroiconsoutlineenvelope3.svg"
             />
-            <div className={styles.button9}>See More Funded Campaigns</div>
+            <div className={styles.button9}>See more campaigns near me!</div>
             <img
               className={styles.heroiconsOutlinearrowRight4}
               alt=""
@@ -327,8 +163,8 @@ const HomeList: FunctionComponent = () => {
         <div className={styles.sectionHeader1}>
           <b className={styles.itsHowYou}>Trending campaigns</b>
         </div>
-        <div className={styles.cards1}>
-          <div className={styles.card}>
+        <div className={styles.cards}>
+          <div className={styles.contentBox}>
             <div className={styles.rectangleParent}>
               <div className={styles.frameChild} />
               <img
@@ -337,7 +173,7 @@ const HomeList: FunctionComponent = () => {
                 src="/image-16@2x.png"
               />
             </div>
-            <div className={styles.badge1}>
+            <div className={styles.badge}>
               <div className={styles.badgeLayer}>
                 <div className={styles.dots}>
                   <div className={styles.dotsChild} />
@@ -346,17 +182,15 @@ const HomeList: FunctionComponent = () => {
               </div>
             </div>
             <b className={styles.itsHowYouContainer}>
-              <p className={styles.digitalAssetsRegulation}>
-                The Railway Safety Act
-              </p>
-              <p className={styles.digitalAssetsRegulation}>of 2023</p>
+              <p className={styles.theRailwaySafety}>The Railway Safety Act</p>
+              <p className={styles.theRailwaySafety}>of 2023</p>
             </b>
-            <b className={styles.itsHowYou4}>East Palestine, OH</b>
-            <div className={styles.itsHowYou5}>
+            <b className={styles.itsHowYou2}>East Palestine, OH</b>
+            <div className={styles.itsHowYou3}>
               A response to the Ohio train derailment in East Palestine, this
               act would, “create more stringent safety requirements for ...
             </div>
-            <div className={styles.button10}>
+            <div className={styles.button12}>
               <div className={styles.stateLayer}>
                 <img
                   className={styles.heroiconsOutlinearrowRight}
@@ -372,16 +206,16 @@ const HomeList: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <div className={styles.card}>
+          <div className={styles.contentBox}>
             <div className={styles.rectangleParent}>
               <div className={styles.frameChild} />
               <img
-                className={styles.image14Icon}
+                className={styles.image17Icon}
                 alt=""
                 src="/image-17@2x.png"
               />
             </div>
-            <div className={styles.badge1}>
+            <div className={styles.badge}>
               <div className={styles.badgeLayer}>
                 <div className={styles.dots}>
                   <div className={styles.dotsChild} />
@@ -390,17 +224,17 @@ const HomeList: FunctionComponent = () => {
               </div>
             </div>
             <b className={styles.itsHowYouContainer}>
-              <p className={styles.digitalAssetsRegulation}>
+              <p className={styles.theRailwaySafety}>
                 FL HB 1557 “Don’t say gay”
               </p>
-              <p className={styles.digitalAssetsRegulation}>censorship</p>
+              <p className={styles.theRailwaySafety}>censorship</p>
             </b>
-            <b className={styles.itsHowYou4}>Salem, OH</b>
-            <div className={styles.itsHowYou5}>
+            <b className={styles.itsHowYou2}>Salem, OH</b>
+            <div className={styles.itsHowYou3}>
               Florida's “Don't Say Gay” and "Stop WOKE" Act are a cornerstone of
               Governor Ron DeSantis' censorship​ ...
             </div>
-            <div className={styles.button10}>
+            <div className={styles.button12}>
               <div className={styles.stateLayer}>
                 <img
                   className={styles.heroiconsOutlinearrowRight}
@@ -416,16 +250,16 @@ const HomeList: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <div className={styles.card}>
+          <div className={styles.contentBox}>
             <div className={styles.rectangleParent}>
               <div className={styles.frameChild} />
               <img
-                className={styles.image14Icon}
+                className={styles.image17Icon}
                 alt=""
                 src="/image-23@2x.png"
               />
             </div>
-            <div className={styles.badge1}>
+            <div className={styles.badge}>
               <div className={styles.badgeLayer}>
                 <div className={styles.dots}>
                   <div className={styles.dotsChild} />
@@ -436,12 +270,12 @@ const HomeList: FunctionComponent = () => {
             <b className={styles.itsHowYouContainer}>
               IN This Corner: Coinbase vs The SEC
             </b>
-            <b className={styles.itsHowYou4}>Waynesburg, OH</b>
-            <div className={styles.itsHowYou5}>
+            <b className={styles.itsHowYou2}>Waynesburg, OH</b>
+            <div className={styles.itsHowYou3}>
               Coinbase has taken legal action against the SEC, asking a federal
               judge to force the regulator to share its answer on ...
             </div>
-            <div className={styles.button10}>
+            <div className={styles.button12}>
               <div className={styles.stateLayer}>
                 <img
                   className={styles.heroiconsOutlinearrowRight}
@@ -458,42 +292,42 @@ const HomeList: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className={styles.button26}>
+        <div className={styles.button18}>
           <div className={styles.stateLayer4}>
             <img
               className={styles.heroiconsOutlineenvelope}
               alt=""
-              src="/heroiconsoutlineenvelope3.svg"
+              src="/heroiconsoutlineenvelope2.svg"
             />
-            <div className={styles.button9}>See More Funded Campaigns</div>
+            <div className={styles.button9}>See more trending campaigns</div>
             <img
               className={styles.heroiconsOutlinearrowRight4}
               alt=""
-              src="/heroiconsoutlinearrowright4.svg"
+              src="/heroiconsoutlinearrowright1.svg"
             />
           </div>
         </div>
       </div>
       <div className={styles.footer}>
-        <div className={styles.cards2}>
+        <div className={styles.cards1}>
           <div className={styles.contentBox3}>
             <img
               className={styles.logoMarkWhiteIcon}
               alt=""
-              src="/logomarkwhite11.svg"
+              src="/logomarkwhite1.svg"
             />
-            <b className={styles.itsHowYou19}>
+            <b className={styles.itsHowYou9}>
               We believe people deserve more robust opportunities to voice their
               opinions and advocate their beliefs.
             </b>
-            <div className={styles.itsHowYou20}>© DeVox 2023</div>
+            <div className={styles.itsHowYou10}>© DeVox 2023</div>
           </div>
           <div className={styles.contentBox4}>
-            <div className={styles.itsHowYou21}>Discover</div>
-            <div className={styles.itsHowYou21}>Start a Campaign</div>
-            <div className={styles.itsHowYou21}>About Us</div>
-            <div className={styles.itsHowYou21}>Terms of Services</div>
-            <div className={styles.itsHowYou21}>Privacy Policy</div>
+            <div className={styles.itsHowYou11}>Discover</div>
+            <div className={styles.itsHowYou11}>Start a Campaign</div>
+            <div className={styles.itsHowYou11}>About Us</div>
+            <div className={styles.itsHowYou11}>Terms of Services</div>
+            <div className={styles.itsHowYou11}>Privacy Policy</div>
             <div className={styles.affiliateProgram}>Affiliate Program</div>
           </div>
           <div className={styles.contentBox5}>
@@ -530,7 +364,7 @@ const HomeList: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.button28}>
+            <div className={styles.button20}>
               <div className={styles.stateLayer}>
                 <img
                   className={styles.heroiconsOutlinearrowRight}
@@ -552,4 +386,4 @@ const HomeList: FunctionComponent = () => {
   );
 };
 
-export default HomeList;
+export default HomeMap1;

@@ -126,6 +126,7 @@
   flex-shrink: 0;
   z-index: 4;
   font-size: var(--body-sm-semi-bold-size);
+  color: var(--sand-dark-11);
   font-family: var(--forms-input-14);
 }
 .thePeoplesPolitical {
@@ -200,7 +201,6 @@
   text-align: center;
   font-size: var(--font-size-45xl);
   color: var(--primary-black);
-  font-family: var(--font-antonio);
 }
 .itsHowYou {
   position: relative;
@@ -216,18 +216,20 @@
   align-items: center;
   justify-content: flex-start;
 }
-.heroiconsMinilistBullet,
-.heroiconsOutlineglobeAlt {
+.heroiconsMinilistBullet {
   position: relative;
   width: 36px;
   height: 36px;
   overflow: hidden;
   flex-shrink: 0;
+  cursor: pointer;
 }
 .heroiconsOutlineglobeAlt {
+  position: relative;
   width: 40px;
   height: 40px;
-  cursor: pointer;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 .heroiconsMinilistBulletParent,
 .sectionHeader {
@@ -245,8 +247,72 @@
 .sectionHeader {
   width: 1360px;
   justify-content: flex-start;
-  color: var(--gray-gray-900);
+}
+.button10,
+.mapZoomOut {
+  overflow: hidden;
+  cursor: pointer;
+}
+.mapZoomOut {
+  position: relative;
+  width: 1358px;
+  height: 680px;
+  flex-shrink: 0;
+}
+.button10 {
+  background-color: var(--primary-white);
+  border: 1px solid var(--primary-black);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-7xl);
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--body-lg-semi-bold-size);
+  color: var(--primary-black);
+  font-family: var(--body-sm-semi-bold);
+}
+.section1,
+.sectionHeader1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.section1 {
+  background-color: var(--primary-white);
+  width: 1440px;
+  padding: var(--padding-61xl) 0;
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-25xl);
+  z-index: 2;
+}
+.sectionHeader1 {
+  width: 1360px;
+  align-items: flex-start;
   font-family: var(--font-antonio);
+}
+.frameChild,
+.image16Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 373px;
+}
+.frameChild {
+  background-color: var(--slate-light-8);
+  width: 368px;
+}
+.image16Icon {
+  width: 555px;
+  object-fit: cover;
+}
+.rectangleParent {
+  align-self: stretch;
+  position: relative;
+  height: 373px;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 .dotsChild {
   position: relative;
@@ -285,116 +351,9 @@
   padding: var(--padding-9xs) var(--padding-3xs);
   align-items: flex-start;
   text-align: center;
-  font-size: var(--body-md-regular-size);
   color: var(--success-700);
 }
-.itsHowYou1 {
-  font-size: var(--font-size-45xl);
-  line-height: 112%;
-  text-transform: uppercase;
-  font-family: var(--font-antonio);
-}
-.itsHowYou1,
-.itsHowYou2,
-.itsHowYou3 {
-  align-self: stretch;
-  position: relative;
-}
-.itsHowYou2 {
-  line-height: 112%;
-  text-transform: uppercase;
-  font-family: var(--font-antonio);
-  color: var(--lavender);
-}
-.itsHowYou3 {
-  line-height: 120%;
-  font-family: var(--font-pt-serif);
-}
-.button10,
-.content {
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-.button10 {
-  background-color: var(--primary-white);
-  box-shadow: var(--shadows-medium);
-  border: 1px solid var(--primary-black);
-  padding: var(--padding-3xs) var(--padding-lg);
-  text-align: center;
-  font-size: var(--body-sm-semi-bold-size);
-  color: var(--primary-black);
-}
-.content {
-  flex-shrink: 0;
-  padding: 0 var(--padding-13xl);
-  box-sizing: border-box;
-  gap: var(--gap-21xl);
-}
-.content,
-.image,
-.image20Icon {
-  width: 680px;
-  height: 680px;
-}
-.image20Icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
-.image {
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.cardHero {
-  border: 1px solid var(--primary-black);
-  box-sizing: border-box;
-  width: 1362px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  font-size: var(--font-size-5xl);
-}
-.frameChild,
-.image12Icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.frameChild {
-  background-color: var(--slate-light-8);
-  width: 368px;
-  height: 373px;
-}
-.image12Icon {
-  width: 562px;
-  height: 374px;
-  object-fit: cover;
-}
-.rectangleParent {
-  align-self: stretch;
-  position: relative;
-  height: 373px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.badge1 {
-  background-color: var(--success-200);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  padding: var(--padding-9xs) var(--padding-3xs);
-  align-items: flex-start;
-  justify-content: center;
-  text-align: center;
-  color: var(--success-700);
-}
-.digitalAssetsRegulation {
+.theRailwaySafety {
   margin: 0;
 }
 .itsHowYouContainer {
@@ -403,32 +362,32 @@
   text-transform: uppercase;
   font-family: var(--font-antonio);
 }
-.itsHowYou4,
-.itsHowYou5,
+.itsHowYou2,
+.itsHowYou3,
 .itsHowYouContainer {
   align-self: stretch;
   position: relative;
 }
-.itsHowYou4 {
+.itsHowYou2 {
   font-size: var(--font-size-5xl);
   line-height: 112%;
   text-transform: uppercase;
   font-family: var(--font-antonio);
   color: var(--lavender);
 }
-.itsHowYou5 {
+.itsHowYou3 {
   font-size: var(--font-size-xl);
   line-height: 120%;
   font-family: var(--font-pt-serif);
 }
 .button12,
-.card {
+.contentBox {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 .button12 {
-  background-color: var(--lavender);
+  background-color: var(--primary-white);
   box-shadow: var(--shadows-medium);
   border: 1px solid var(--primary-black);
   overflow: hidden;
@@ -438,80 +397,22 @@
   font-size: var(--body-sm-semi-bold-size);
   color: var(--primary-black);
 }
-.card {
+.contentBox {
   flex: 1;
   border: 1px solid var(--devox-black);
   padding: var(--padding-13xl);
   justify-content: flex-start;
   gap: var(--gap-5xl);
 }
-.image14Icon,
-.image15Icon {
+.image17Icon {
   position: absolute;
   top: 0;
   left: 0;
-  width: 662px;
-  height: 373px;
-  object-fit: cover;
-}
-.image14Icon {
   width: 369px;
   height: 553px;
-}
-.button18,
-.cards {
-  display: flex;
-  align-items: flex-start;
-}
-.cards {
-  width: 1360px;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: var(--gap-13xl);
-  font-size: var(--body-md-regular-size);
-}
-.button18 {
-  background-color: var(--primary-white);
-  border: 1px solid var(--primary-black);
-  overflow: hidden;
-  flex-direction: column;
-  padding: var(--padding-lg) var(--padding-7xl);
-  justify-content: center;
-  cursor: pointer;
-  text-align: center;
-  font-size: var(--body-lg-semi-bold-size);
-  color: var(--primary-black);
-}
-.section1,
-.sectionHeader1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.section1 {
-  background-color: var(--primary-white);
-  width: 1440px;
-  padding: var(--padding-61xl) 0;
-  box-sizing: border-box;
-  align-items: center;
-  gap: var(--gap-25xl);
-  z-index: 2;
-  color: var(--devox-black);
-}
-.sectionHeader1 {
-  width: 1360px;
-  align-items: flex-start;
-  font-family: var(--font-antonio);
-}
-.image16Icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 555px;
-  height: 373px;
   object-fit: cover;
 }
-.cards1 {
+.cards {
   width: 1360px;
   display: flex;
   flex-direction: row;
@@ -521,13 +422,13 @@
   font-size: var(--body-md-regular-size);
   color: var(--devox-black);
 }
-.button26,
+.button18,
 .section2 {
   background-color: var(--primary-white);
   display: flex;
   flex-direction: column;
 }
-.button26 {
+.button18 {
   border: 1px solid var(--primary-black);
   overflow: hidden;
   padding: var(--padding-lg) var(--padding-7xl);
@@ -545,7 +446,7 @@
   justify-content: flex-start;
   gap: var(--gap-25xl);
   z-index: 1;
-  color: var(--gray-gray-900);
+  font-family: var(--body-sm-semi-bold);
 }
 .logoMarkWhiteIcon {
   position: relative;
@@ -554,16 +455,16 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.itsHowYou19,
-.itsHowYou20 {
+.itsHowYou10,
+.itsHowYou9 {
   align-self: stretch;
   position: relative;
   line-height: 112%;
 }
-.itsHowYou19 {
+.itsHowYou9 {
   text-transform: uppercase;
 }
-.itsHowYou20 {
+.itsHowYou10 {
   font-size: var(--font-size-xl);
   font-family: var(--forms-input-14);
   color: var(--slate-light-1);
@@ -580,7 +481,7 @@
   gap: var(--gap-21xl);
   font-family: var(--font-antonio);
 }
-.itsHowYou21 {
+.itsHowYou11 {
   align-self: stretch;
   position: relative;
   line-height: 112%;
@@ -686,13 +587,13 @@
 .inputField {
   width: 320px;
 }
-.button28,
+.button20,
 .contentBox5,
 .inputField {
   flex-direction: column;
   align-items: flex-start;
 }
-.button28 {
+.button20 {
   background-color: var(--lavender);
   border: 1px solid var(--primary-black);
   overflow: hidden;
@@ -710,21 +611,21 @@
   gap: var(--gap-5xl);
   font-size: var(--body-sm-semi-bold-size);
 }
-.cards2,
+.cards1,
 .contentBox5,
 .footer,
-.homeList {
+.homeMap1 {
   display: flex;
   justify-content: flex-start;
 }
-.cards2 {
+.cards1 {
   width: 1360px;
   flex-direction: row;
   align-items: center;
   gap: var(--gap-13xl);
 }
 .footer,
-.homeList {
+.homeMap1 {
   flex-direction: column;
 }
 .footer {
@@ -736,15 +637,15 @@
   z-index: 0;
   font-size: var(--font-size-13xl);
   color: var(--primary-white);
+  font-family: var(--body-sm-semi-bold);
 }
-.homeList {
+.homeMap1 {
   position: relative;
   background-color: var(--primary-white);
-  width: 100%;
   overflow: hidden;
   align-items: flex-start;
   text-align: left;
   font-size: var(--font-size-21xl);
-  color: var(--sand-dark-11);
-  font-family: var(--body-sm-semi-bold);
+  color: var(--gray-gray-900);
+  font-family: var(--font-antonio);
 }

@@ -4,9 +4,9 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Splash from "./pages/Splash";
 import HomeList from "./pages/HomeList";
 import Splash1 from "./pages/Splash1";
+import Splash from "./pages/Splash";
 import { useEffect } from "react";
 
 function App() {
@@ -29,11 +29,11 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/home-list":
+      case "/splash":
         title = "";
         metaDescription = "";
         break;
-      case "/splash":
+      case "/splash1":
         title = "";
         metaDescription = "";
         break;
@@ -55,9 +55,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Splash />} />
-      <Route path="/home-list" element={<HomeList />} />
+      <Route path="/" element={<HomeList />} />
       <Route path="/splash" element={<Splash1 />} />
+      <Route path="/splash1" element={<Splash />} />
     </Routes>
   );
 }
