@@ -1,0 +1,89 @@
+.email {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.heroiconsOutlineenvelope {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.hussainfinessecom {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.input {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.heroiconsOutlinechevronDown {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.inputLayer {
+  align-self: stretch;
+  background-color: var(--primary-white);
+  box-shadow: var(--shadows-medium);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-sm);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--body-md-regular-size);
+  color: var(--grey-400);
+}
+.heroiconsOutlinequestionMar {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.hintText {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  width: 292px;
+  flex-shrink: 0;
+}
+.helpText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--grey-500);
+}
+.inputStateLayer,
+.inputTyperegularCornerssh {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputStateLayer {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.inputTyperegularCornerssh {
+  position: relative;
+  width: 320px;
+  text-align: left;
+  font-size: var(--body-sm-semi-bold-size);
+  color: var(--grey-700);
+  font-family: var(--body-sm-semi-bold);
+}

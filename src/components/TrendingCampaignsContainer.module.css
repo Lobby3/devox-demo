@@ -1,0 +1,101 @@
+.itsHowYou {
+  position: relative;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.sectionHeader {
+  width: 1360px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild,
+.image16Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 373px;
+}
+.frameChild {
+  background-color: var(--slate-light-8);
+  width: 368px;
+}
+.image16Icon {
+  width: 555px;
+  object-fit: cover;
+}
+.rectangleParent {
+  align-self: stretch;
+  position: relative;
+  height: 373px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.theRailwaySafety {
+  margin: 0;
+}
+.itsHowYouContainer {
+  line-height: 112%;
+  text-transform: uppercase;
+}
+.itsHowYou1,
+.itsHowYou2,
+.itsHowYouContainer {
+  align-self: stretch;
+  position: relative;
+}
+.itsHowYou1 {
+  font-size: var(--font-size-5xl);
+  line-height: 112%;
+  text-transform: uppercase;
+  color: var(--lavender);
+}
+.itsHowYou2 {
+  font-size: var(--font-size-xl);
+  line-height: 120%;
+  font-family: var(--font-pt-serif);
+}
+.contentBox {
+  flex: 1;
+  border: 1px solid var(--devox-black);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-13xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.image17Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 369px;
+  height: 553px;
+  object-fit: cover;
+}
+.cards,
+.section {
+  width: 1360px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-13xl);
+  color: var(--devox-black);
+}
+.section {
+  background-color: var(--primary-white);
+  width: 1440px;
+  flex-direction: column;
+  padding: var(--padding-61xl) 0;
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-25xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--gray-gray-900);
+  font-family: var(--font-antonio);
+}

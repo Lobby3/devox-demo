@@ -1,0 +1,28 @@
+.label {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.badgeLayer,
+.typedotColorsuccessSize {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.badgeLayer {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-7xs);
+}
+.typedotColorsuccessSize {
+  position: relative;
+  background-color: var(--success-200);
+  flex-direction: column;
+  padding: var(--padding-9xs) var(--padding-3xs);
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--body-md-regular-size);
+  color: var(--success-700);
+  font-family: var(--body-sm-semi-bold);
+}

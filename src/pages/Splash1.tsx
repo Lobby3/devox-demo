@@ -5,7 +5,7 @@ const Splash1: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onSectionContainerClick = useCallback(() => {
-    navigate("/home-list");
+    navigate("/");
   }, [navigate]);
 
   return (

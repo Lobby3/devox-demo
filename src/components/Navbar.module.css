@@ -1,0 +1,64 @@
+.requiredIcon {
+  position: relative;
+  border-radius: var(--br-7xs);
+  width: 24px;
+  height: 24px;
+}
+.downloadChimnneyFo {
+  flex: 1;
+  position: relative;
+  line-height: 100%;
+  font-weight: 500;
+}
+.text {
+  align-self: stretch;
+  flex: 1;
+  padding: var(--padding-5xs) 0;
+  justify-content: flex-start;
+}
+.input,
+.logo,
+.navigation,
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.input {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--sand-light-4);
+  box-sizing: border-box;
+  width: 161px;
+  height: 32px;
+  padding: 0 var(--padding-xs) 0 var(--padding-9xs);
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.logo,
+.navigation {
+  position: absolute;
+  overflow: hidden;
+  gap: var(--gap-base);
+}
+.logo {
+  top: 16px;
+  left: 24px;
+  justify-content: flex-start;
+}
+.navigation {
+  top: calc(50% - 20px);
+  right: 24.4px;
+  justify-content: flex-end;
+}
+.navbar {
+  position: relative;
+  background-color: var(--devox-black);
+  width: 1440px;
+  height: 64px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-sm-semi-bold-size);
+  color: var(--sand-dark-11);
+  font-family: var(--forms-input-14);
+}

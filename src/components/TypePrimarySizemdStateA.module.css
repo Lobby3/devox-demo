@@ -1,0 +1,35 @@
+.heroiconsOutlineenvelope {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.stateLayer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.typeprimarySizemdStatea {
+  position: relative;
+  background-color: var(--lavender);
+  border: 1px solid var(--primary-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-xl);
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--body-sm-semi-bold-size);
+  color: var(--primary-black);
+  font-family: var(--body-sm-semi-bold);
+}

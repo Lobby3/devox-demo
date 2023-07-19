@@ -1,0 +1,83 @@
+.itsHowYou,
+.itsHowYou1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 112%;
+}
+.itsHowYou {
+  text-transform: uppercase;
+}
+.itsHowYou1 {
+  font-size: var(--font-size-xl);
+  font-family: var(--forms-input-14);
+  color: var(--slate-light-1);
+}
+.contentBox {
+  flex: 1;
+  background-color: var(--devox-black);
+  border: 1px solid var(--devox-black);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-13xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.itsHowYou2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 112%;
+}
+.affiliateProgram {
+  position: relative;
+  line-height: 140%;
+}
+.contentBox1 {
+  flex: 1;
+  background-color: var(--devox-black);
+  border: 1px solid var(--devox-black);
+  flex-direction: column;
+  padding: var(--padding-13xl);
+  align-items: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-xl);
+  color: var(--slate-light-1);
+  font-family: var(--body-sm-semi-bold);
+}
+.cards,
+.contentBox1,
+.contentBox2,
+.footer {
+  display: flex;
+  justify-content: flex-start;
+}
+.contentBox2 {
+  flex: 1;
+  background-color: var(--devox-black);
+  border: 1px solid var(--devox-black);
+  flex-direction: column;
+  padding: var(--padding-13xl);
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+.cards,
+.footer {
+  align-items: center;
+}
+.cards {
+  width: 1360px;
+  flex-direction: row;
+  gap: var(--gap-13xl);
+}
+.footer {
+  background-color: var(--devox-black);
+  width: 1440px;
+  flex-direction: column;
+  padding: var(--padding-61xl) 0;
+  box-sizing: border-box;
+  z-index: 0;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--primary-white);
+  font-family: var(--font-antonio);
+}

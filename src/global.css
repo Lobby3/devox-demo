@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400&display=swap");
 body {
@@ -9,66 +9,66 @@ body {
 :root {
   /* fonts */
   --body-sm-semi-bold: Inter;
-  --forms-input-14: "IBM Plex Sans";
   --font-antonio: Antonio;
+  --forms-input-14: "IBM Plex Sans";
   --font-pt-serif: "PT Serif";
 
   /* font sizes */
   --body-sm-semi-bold-size: 14px;
   --body-md-regular-size: 16px;
-  --body-lg-semi-bold-size: 18px;
   --font-size-13xl: 32px;
   --font-size-xl: 20px;
+  --body-lg-semi-bold-size: 18px;
   --font-size-5xl: 24px;
   --font-size-21xl: 40px;
   --font-size-45xl: 64px;
 
   /* Colors */
-  --lavender: #dab5ff;
-  --primary-black: #000;
-  --grey-500: #676e76;
   --primary-white: #fff;
-  --grey-400: #9ea5ad;
-  --sand-dark-11: #a1a09a;
-  --grey-700: #454c52;
-  --success-200: #d9f9e6;
-  --success-700: #2f9461;
-  --success-600: #53b483;
   --slate-light-1: #fbfcfd;
   --gray-gray-900: #1e1e1d;
   --devox-black: #1a1a1a;
+  --lavender: #dab5ff;
+  --primary-black: #000;
+  --grey-500: #676e76;
+  --grey-400: #9ea5ad;
+  --sand-dark-11: #a1a09a;
+  --success-200: #d9f9e6;
+  --success-700: #2f9461;
+  --success-600: #53b483;
+  --slate-light-8: #c1c8cd;
   --grey-300: #ced2d6;
   --color-whitesmoke-100: #f9f9f8;
   --sand-light-4: #eeeeec;
-  --slate-light-8: #c1c8cd;
+  --grey-700: #454c52;
 
   /* Gaps */
-  --gap-5xs: 8px;
-  --gap-7xs: 6px;
-  --gap-xs: 12px;
-  --gap-base: 16px;
   --gap-13xl: 32px;
   --gap-5xl: 24px;
+  --gap-5xs: 8px;
+  --gap-base: 16px;
   --gap-21xl: 40px;
   --gap-25xl: 44px;
+  --gap-xs: 12px;
+  --gap-7xs: 6px;
 
   /* Paddings */
+  --padding-61xl: 80px;
+  --padding-13xl: 32px;
   --padding-xs: 12px;
   --padding-xl: 20px;
   --padding-3xs: 10px;
   --padding-sm: 14px;
   --padding-lg: 18px;
-  --padding-12xs: 1px;
-  --padding-9xs: 4px;
   --padding-7xl: 26px;
+  --padding-9xs: 4px;
+  --padding-12xs: 1px;
   --padding-5xs: 8px;
-  --padding-61xl: 80px;
-  --padding-13xl: 32px;
   --padding-293xl: 312px;
 
   /* border radiuses */
-  --br-7xs: 6px;
   --br-81xl: 100px;
+  --br-7xs: 6px;
 
   /* Effects */
   --shadows-medium: 0px 2px 5px rgba(103, 110, 118, 0.08),

@@ -1,0 +1,33 @@
+.thePeoplesPolitical {
+  position: relative;
+  line-height: 67px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 1014px;
+}
+.supportPeopleWho {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-pt-serif);
+  display: inline-block;
+  width: 726px;
+}
+.section {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-61xl) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  background-image: url(/public/section@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 3;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--primary-black);
+  font-family: var(--font-antonio);
+}
