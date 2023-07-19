@@ -1,0 +1,30 @@
+.logoHorizontalIcon {
+  position: relative;
+  width: 522px;
+  height: 122px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.section,
+.splash {
+  background-color: var(--devox-black);
+}
+.section {
+  position: absolute;
+  top: calc(50% - 372.5px);
+  left: 0;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-293xl) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.splash {
+  position: relative;
+  width: 100%;
+  height: 875px;
+  overflow: hidden;
+}
